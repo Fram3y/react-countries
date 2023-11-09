@@ -14,7 +14,7 @@ import {
 
 // Import Components
 
-const WEATHER_URL = "http://api.weatherapi.com/v1/current.json";
+const WEATHER_URL = "https://api.weatherapi.com/v1/current.json";
 const API_KEY = "cab1bb6537e0416383c151819230611";
 
 const SingleCountry = () => {
