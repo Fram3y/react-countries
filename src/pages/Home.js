@@ -20,7 +20,7 @@ const Home = (props) => {
         setFilteredCountries(response.data);
       })
       .catch((error) => {
-        console.log("Error");
+        console.error(error);
       });
   }, []);
 
